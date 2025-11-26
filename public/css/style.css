@@ -163,6 +163,11 @@ main{
 	padding-left: 1rem;
 	border-left: 3px solid #F5F5F5;
 }
+.skills-head,
+.skills-content{
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
 /*Worksの設定*/
 .works-head{
 	text-align: right;
