@@ -3,14 +3,157 @@
 	<head> 
 		<meta charset="UTF-8">  
 		<link rel="stylesheet" href="../css/style.css">  
-		<title>Github Pages のハンズオン</title>  
+		<title>Portfolio</title>  
+		
+		<!--ファビコン-->
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		
+		<!-- リセットCSS -->
+		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">	
+		
+		<!--フォント-->
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&family=Shippori+Mincho+B1:wght@400;700&display=swap" rel="stylesheet">
 	</head> 
 	
 	<body> 
-		<h1>Github Pages のハンズオン</h1> 
-		<p> 
-			こんにちは。<br> 
-			こちらは<span class="githubpages">Github Pages</span>から公開されている Web ページです。 
-		</p> 
-	</body>  
+		<nav class="font-english full-border">
+			<div class="head">
+				<h1 class="portfolio">PORTFOLIO</h1>
+				<ul class="main-nav">
+					<li><a href="#">PROFILE</a></li>
+					<li><a href="#">SKILLS</a></li>
+					<li><a href="#">WORKS</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</div>
+		</nav>
+		<header>
+			<h1 class="name">
+				<div class="name-si">別所</div>
+				<div class="name-mei">大空</div>
+			</h1>
+			<h1 class="hurigana">
+				<div class="name-si-hurigana">べっしょ</div>
+				<div class="name-mei-hurigana">そら</div>
+			</h1>
+		</header>
+		<section class="container">
+			<p class="mini-header font-english">PROFILE</p>
+			<main>
+				<div class="list">
+					<p class="minimini-header list-item">別所　大空</p>
+					<ul class="list-item">
+						<li>2004年10月12日生</li>
+						<li>神奈川県川崎市出身</li>
+						<li>PG見習い</li>
+					</ul>
+				</div>
+				<div class="timeline">
+					<div class="row">
+						<div class="date">2023年3月　</div>
+						<div class="event">
+							<p class="minimini-header">高等学校　卒業（機械科）</pclass="minimini-header">
+							<p>溶接・旋盤・製図などの工学基礎を幅広く学習。</p>
+							<p>第二種電気工事士、高所作業者などの資格を取得。</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="date">2023年4月～</div>
+						<div class="event">
+							<p class="minimini-header">予備校にて大学受験に専念</p>
+							<p>学習に集中し、基礎学力を強化。</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="date">2024年4月～</div>
+						<div class="event">
+							<p class="minimini-header">中央大学　国際情報学部　入学</p>
+							<p>情報分野に関連する法学・社会制度などを学ぶ学際的な学部で、</p>
+							<p>幅広い分野に触れる。</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="date">2025年3月　</div>
+						<div class="event">
+							<p class="minimini-header">中央大学　中途退学</p>
+							<p>より実務的な開発スキルを早期に身に着ける進路へ切り替えるため、</p>
+							<p>自立とキャリア形成を目的に退学を決断。</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="date">2025年4月～</div>
+						<div class="event">
+							<p class="minimini-header">就業しながらエンジニア転職に向けた学習を継続</p>
+							<p>生活基盤を整えつつ、IT関連の資格を学習。</p>
+							<p>アルバイトを複数掛け持ちし、安定した生活基盤を確立。</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="date">2025年9月～</div>
+						<div class="event">
+								<p class="minimini-header">株式会社アスページ　入社（エンジニア職）</p>
+							<p>未経験からITエンジニアとして入社。</p>
+							<p>現在、6ヶ月間の研修にてJava・SQL・Web開発などを学習中。</p>
+						</div>
+					</div>
+				</div>
+			</main>
+		</section>
+		
+		
+		<section class="container">
+			<p class="mini-header font-english">SKILLS</p>
+			<main>
+				<div class="skills">
+					<div class="row">
+						<div class="skills-head">Java</div>
+						<div class="skills-content">内容</div>
+					</div>
+					<div class="row">
+						<div class="skills-head">Oracle</div>
+						<div class="skills-content">内容</div>
+					</div>
+					<div class="row">
+						<div class="skills-head">HTML/CSS</div>
+						<div class="skills-content">内容</div>
+					</div>
+				</div>
+			</main>
+		</section>
+		
+		<section class="container">
+			<p class="mini-header font-english">WORKS</p>
+			<main>
+				<div class="works">
+					<div class="row">
+						<div class="works-head">チーム開発</div>
+						<div class="works-content">
+							<p class="minimini-header">社員情報CRUD-コンソールアプリ</p>
+							<p>いろいろやったよ</p>
+						</div>
+					</div>
+				</div>
+			</main>
+		</section>
+		
+		<section class="container">
+			<p class="mini-header font-english">CONTACT</p>
+			<main>
+				<div class="contact">
+					<div class="row c-row">
+						<div class="left">所属企業</div>
+						<div class="right">詳細</div>
+					</div>
+					<div class="row c-row">
+						<div class="left">企業所在地</div>
+						<div class="right">詳細</div>
+					</div>
+					<div class="row c-row">
+						<div class="left">連絡先</div>
+						<div class="right">詳細</div>
+					</div>
+				</div>
+			</main>
+		</section>
+	</body>
 </html> 
