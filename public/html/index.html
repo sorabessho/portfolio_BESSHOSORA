@@ -1,193 +1,228 @@
-<!DOCTYPE html> 
-<html lang="ja"> 
-	<head> 
-		<meta charset="UTF-8">  
-		<link rel="stylesheet" href="../css/style.css">  
-		<title>Portfolio</title>  
-		
-		<!--ファビコン-->
-		<link rel="icon" type="image/png" href="images/favicon.png">
-		
-		<!-- リセットCSS -->
-		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">	
-		
-		<!--フォント-->
-		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&family=Shippori+Mincho+B1:wght@400;700&display=swap" rel="stylesheet">
-	</head> 
-	
-	<body> 
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>Portfolio</title>
+
+	<!--ファビコン-->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+
+	<!-- リセットCSS -->
+	<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+	<!--フォント-->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&family=Shippori+Mincho+B1:wght@400;700&display=swap"
+		rel="stylesheet">
+</head>
+
+<body class="width">
+	<header>
 		<nav class="font-english full-border">
 			<div class="head">
-				<h1 class="portfolio">PORTFOLIO</h1>
+				<h1 class="portfolio"><a href="#">PORTFOLIO</a></h1>
 				<ul class="main-nav">
-					<li><a href="#">PROFILE</a></li>
-					<li><a href="#">SKILLS</a></li>
-					<li><a href="#">WORKS</a></li>
-					<li><a href="#">CONTACT</a></li>
+					<li><a href="#profile">PROFILE</a></li>
+					<li><a href="#skills">SKILLS</a></li>
+					<li><a href="#works">WORKS</a></li>
+					<li><a href="#contact">CONTACT</a></li>
 				</ul>
 			</div>
 		</nav>
-		<header>
-			<h1 class="name">
+	</header>
+	<div class="name">
+		<h1 class="name">
+			<div class="flex-column">
 				<div class="name-si">別所</div>
 				<div class="name-mei">大空</div>
-			</h1>
-			<h1 class="hurigana">
+			</div>
+		</h1>
+		<h1 class="hurigana">
+			<div class="flex-column">
 				<div class="name-si-hurigana">べっしょ</div>
 				<div class="name-mei-hurigana">そら</div>
-			</h1>
-		</header>
-		<section class="container">
-			<p class="mini-header font-english">PROFILE</p>
-			<main>
-				<div class="list">
-					<p class="minimini-header list-item">別所　大空</p>
-					<ul class="list-item">
-						<li>2004年10月12日生</li>
-						<li>神奈川県川崎市出身</li>
-						<li>PG見習い</li>
-					</ul>
-				</div>
-				<div class="timeline">
-					<div class="row">
-						<div class="date">2023年3月　</div>
-						<div class="event">
-							<p class="minimini-header">高等学校　卒業（機械科）</pclass="minimini-header">
-							<p>溶接・旋盤・製図などの工学基礎を幅広く学習。</p>
-							<p>第二種電気工事士、高所作業者などの資格を取得。</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="date">2023年4月～</div>
-						<div class="event">
-							<p class="minimini-header">予備校にて大学受験に専念</p>
-							<p>学習に集中し、基礎学力を強化。</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="date">2024年4月～</div>
-						<div class="event">
-							<p class="minimini-header">中央大学　国際情報学部　入学</p>
-							<p>情報分野に関連する法学・社会制度などを学ぶ学際的な学部で、</p>
-							<p>幅広い分野に触れる。</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="date">2025年3月　</div>
-						<div class="event">
-							<p class="minimini-header">中央大学　中途退学</p>
-							<p>より実務的な開発スキルを早期に身に着ける進路へ切り替えるため、</p>
-							<p>自立とキャリア形成を目的に退学を決断。</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="date">2025年4月～</div>
-						<div class="event">
-							<p class="minimini-header">就業しながらエンジニア転職に向けた学習を継続</p>
-							<p>生活基盤を整えつつ、IT関連の資格を学習。</p>
-							<p>アルバイトを複数掛け持ちし、安定した生活基盤を確立。</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="date">2025年9月～</div>
-						<div class="event">
-								<p class="minimini-header">株式会社アスページ　入社（エンジニア職）</p>
-							<p>未経験からITエンジニアとして入社。</p>
-							<p>現在、6ヶ月間の研修にてJava・SQL・Web開発などを学習中。</p>
-						</div>
+			</div>
+		</h1>
+	</div>
+	<section id="profile" class="container">
+		<p class="mini-header font-english">PROFILE</p>
+		<main>
+			<div class="list">
+				<p class="minimini-header list-item">別所　大空</p>
+				<ul class="list-item">
+					<li>2004年10月12日生</li>
+					<li>神奈川県川崎市出身</li>
+				</ul>
+			</div>
+			<div class="timeline">
+				<div class="row">
+					<div class="date">2023年3月　</div>
+					<div class="event">
+						<p class="minimini-header">高等学校　卒業（機械科）</pclass="minimini-header">
+						<p>溶接・旋盤・製図などの工学基礎を幅広く学習。</p>
+						<p>第二種電気工事士、高所作業者などの資格を取得。</p>
 					</div>
 				</div>
-			</main>
-		</section>
-		
-		
-		<section class="container">
-			<p class="mini-header font-english">SKILLS</p>
-			<main>
-				<div class="skills">
-					<div class="row">
-						<div class="skills-head">資格</div>
-						<div class="skills-content">
-							<p class="minimini-header">ITパスポート</p>
-							<p>2025年10月取得</p>
-							</div>
-					</div>
-					<div class="row">
-						<div class="skills-head">Java</div>
-						<div class="skills-content">
-							<p class="minimini-header">基礎・応用の習得及び独自機能の理解</p>
-							<p>基礎構文（変数宣言、配列、条件分岐、繰り返し）</p>
-							<p>独自構文（クラス、メソッド、継承、カプセル化）</p>
-							<p>応用構文（コレクションフレームワーク、例外処理）</p>
-							<p>コーディング規約の理解及び規約に沿った実装</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="skills-head">Oracle</div>
-						<div class="skills-content">
-							<p class="minimini-header">基礎・応用の習得及び独自機能の理解</p>
-							<p>Oracleデータベース環境の構築</p>
-							<p>SQLの基礎構文（select、insert、update、delete）の習得</p>
-							<p>SQLの応用構文（集約、並び替え、結合、副問い合わせ）の習得</p>
-							<p>JDBCの理解と演習課題（社員管理システム）の実践</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="skills-head">HTML/CSS</div>
-						<div class="skills-content">
-							<p class="minimini-header">基礎の習得</p>
-							<p>Webアプリケーション構造</p>
-							<p>タグの種類</p>
-							<p>プロパティの種類</p>
-							<p>HTML/CSSを使用した実装</p>
-							<p>ポートフォリオの構築</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="skills-head">Spring</div>
-						<div class="skills-content">未履修</div>
-					</div>
-					<div class="row">
-						<div class="skills-head">JavaScript</div>
-						<div class="skills-content">未履修</div>
+				<div class="row">
+					<div class="date">2023年4月～</div>
+					<div class="event">
+						<p class="minimini-header">予備校にて大学受験に専念</p>
+						<p>学習に集中し、基礎学力を強化。</p>
 					</div>
 				</div>
-			</main>
-		</section>
-		
-		<section class="container">
-			<p class="mini-header font-english">WORKS</p>
-			<main>
-				<div class="works">
-					<div class="row">
-						<div class="works-head">チーム開発</div>
-						<div class="works-content">
-							<p class="minimini-header">社員情報CRUD-コンソールアプリ</p>
-							<p>いろいろやったよ</p>
-						</div>
+				<div class="row">
+					<div class="date">2024年4月～</div>
+					<div class="event">
+						<p class="minimini-header">中央大学　国際情報学部　入学</p>
+						<p>情報分野に関連する法学・社会制度などを学ぶ学際的な学部で、</p>
+						<p>幅広い分野に触れる。</p>
 					</div>
 				</div>
-			</main>
-		</section>
-		
-		<section class="container">
-			<p class="mini-header font-english">CONTACT</p>
-			<main>
-				<div class="contact">
-					<div class="row c-row">
-						<div class="left">所属企業</div>
-						<div class="right">詳細</div>
-					</div>
-					<div class="row c-row">
-						<div class="left">企業所在地</div>
-						<div class="right">詳細</div>
-					</div>
-					<div class="row c-row">
-						<div class="left">連絡先</div>
-						<div class="right">詳細</div>
+				<div class="row">
+					<div class="date">2025年3月　</div>
+					<div class="event">
+						<p class="minimini-header">中央大学　中途退学</p>
+						<p>より実務的な開発スキルを早期に身に着ける進路へ切り替えるため、</p>
+						<p>自立とキャリア形成を目的に退学を決断。</p>
 					</div>
 				</div>
-			</main>
-		</section>
-	</body>
-</html> 
+				<div class="row">
+					<div class="date">2025年4月～</div>
+					<div class="event">
+						<p class="minimini-header">就業しながらエンジニア転職に向けた学習を継続</p>
+						<p>生活基盤を整えつつ、IT関連の資格を学習。</p>
+						<p>アルバイトを複数掛け持ちし、安定した生活基盤を確立。</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="date">2025年9月～</div>
+					<div class="event">
+						<p class="minimini-header">株式会社アスページ　入社（エンジニア職）</p>
+						<p>未経験からITエンジニアとして入社。</p>
+						<p>現在、6ヶ月間の研修にてJava・SQL・Web開発などを学習中。</p>
+					</div>
+				</div>
+			</div>
+		</main>
+	</section>
+
+
+	<section id="skills" class="container">
+		<p class="mini-header font-english">SKILLS</p>
+		<main>
+			<div class="skills">
+				<div class="row">
+					<div class="skills-head">資格</div>
+					<div class="skills-content">
+						<p class="minimini-header">ITパスポート</p>
+						<p>2025年10月取得</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="skills-head">Java</div>
+					<div class="skills-content">
+						<p class="minimini-header">基礎・応用の習得及び独自機能の理解</p>
+						<p>基礎構文（変数宣言、配列、条件分岐、繰り返し）</p>
+						<p>独自構文（クラス、メソッド、継承、カプセル化）</p>
+						<p>応用構文（コレクションフレームワーク、例外処理）</p>
+						<p>コーディング規約の理解及び規約に沿った実装</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="skills-head">Oracle</div>
+					<div class="skills-content">
+						<p class="minimini-header">基礎・応用の習得及び独自機能の理解</p>
+						<p>Oracleデータベース環境の構築</p>
+						<p>SQLの基礎構文（select、insert、update、delete）の習得</p>
+						<p>SQLの応用構文（集約、並び替え、結合、副問い合わせ）の習得</p>
+						<p>JDBCの理解と演習課題（社員管理システム）の実践</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="skills-head">HTML/CSS</div>
+					<div class="skills-content">
+						<p class="minimini-header">基礎の習得</p>
+						<p>Webアプリケーション構造</p>
+						<p>タグの種類</p>
+						<p>プロパティの種類</p>
+						<p>HTML/CSSを使用した実装</p>
+						<p>ポートフォリオの構築</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="skills-head">Spring</div>
+					<div class="skills-content">
+						<p class="minimini-header">基礎・応用の習得</p>
+						<p>基本操作（画面遷移、フォーム処理、スコープ）の習得</p>
+						<p>データベース操作（CRUD、外部参照、JPQL）の習得</p>
+						<p>入力チェック、フィルタ、thymeleafの理解</p>
+						<p>演習課題（社員管理Webアプリケーション）の実践</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="skills-head">JavaScript</div>
+					<div class="skills-content">
+						<p class="minimini-header">基礎の習得</p>
+						<p>基礎知識（演算子、制御構文、関数）の理解</p>
+						<p>オブジェクト、DOM操作の理解</p>
+						<p>演習課題（社員管理Webアプリケーション）の実践</p>
+					</div>
+				</div>
+			</div>
+		</main>
+	</section>
+
+	<section id="works" class="container">
+		<p class="mini-header font-english">WORKS</p>
+		<main>
+			<div class="works">
+				<div class="row">
+					<div class="works-head">Java練習問題</div>
+					<div class="works-content">
+						<p class="minimini-header">基礎・応用的な内容の練習問題</p>
+						<p>Javaの理解を深めるため、研修中に行う</p>
+						<p>全40問</p>
+						<p></p>
+						<p>練習問題リポジトリ：<a
+								href="https://alder-waterlily-56e.notion.site/_-28749346bedc8100a249f703a2bc07c3?source=copy_link">Notionリンク</a>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="works-head">チーム開発</div>
+					<div class="works-content">
+						<p class="minimini-header">社員情報CRUD-コンソールアプリ</p>
+						<p>いろいろやったよ</p>
+					</div>
+				</div>
+			</div>
+		</main>
+	</section>
+
+	<section id="contact" class="container">
+		<p class="mini-header font-english">CONTACT</p>
+		<main>
+			<div class="contact">
+				<div class="row c-row">
+					<div class="left">所属企業</div>
+					<div class="right">詳細</div>
+				</div>
+				<div class="row c-row">
+					<div class="left">企業所在地</div>
+					<div class="right">詳細</div>
+				</div>
+				<div class="row c-row">
+					<div class="left">連絡先</div>
+					<div class="right">詳細</div>
+				</div>
+			</div>
+		</main>
+	</section>
+	<footer>
+		<div>© 2025 Sora Bessho</div>
+	</footer>
+</body>
+
+</html>

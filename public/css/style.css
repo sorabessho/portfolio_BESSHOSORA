@@ -1,48 +1,55 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
 
-span.githubpages {  
-	color: #FF0000; 
-	font-weight: bold; 
-} 
+span.githubpages {
+	color: #FF0000;
+	font-weight: bold;
+}
 
-html{
+html {
 	font-size: 100%;
 	background-color: #1C1C1C;
 	color: #F5F5F5;
 }
-body{
-	font-family: "Noto Serif JP" ,serif;
+
+body {
+	font-family: "Noto Serif JP", serif;
 }
+
 /*<a>の下線を消す*/
 a {
 	text-decoration: none;
 }
+
 /*箇条書きの点を消す*/
-ul{
+ul {
 	list-style: none;
 }
+
 /*横に広がりすぎないよう設定*/
 .wrapper {
 	max-width: 1120px;
 	margin: auto;
 	padding: 0 1.5rem;
 }
+
 /*英字フォント（font-english）*/
-.font-english{
-	font-family: "Playfair Display" ,serif;
+.font-english {
+	font-family: "Playfair Display", serif;
 }
 
 
 
 /*案内表示*/
-.head{
+.head {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.portfolio{
+
+.portfolio {
 	padding: 1rem;
 }
+
 .main-nav {
 	display: flex;
 	justify-content: flex-end;
@@ -53,20 +60,21 @@ ul{
 }
 
 /*案内表示の色設定*/
-.main-nav a{
+.main-nav a {
 	color: #F5F5F5;
 }
-.main-nav a:hover{
+
+.main-nav a:hover {
 	color: #4E9EFF;
 }
 
 /*全画面ボーダー*/
-.full-border{
+.full-border {
 	border-bottom: 3px solid #F5F5F5;
 }
 
 /*名前表示の設定*/
-header{
+.name {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -76,7 +84,7 @@ header{
 
 /*名前の漢字*/
 .name-si,
-.name-mei{
+.name-mei {
 	writing-mode: vertical-lr;
 	font-size: 7rem;
 	width: 8rem;
@@ -86,118 +94,157 @@ header{
 
 /*名前のフリガナ*/
 .name-si-hurigana,
-.name-mei-hurigana{
+.name-mei-hurigana {
 	writing-mode: vertical-lr;
 	font-size: 2rem;
-	padding: 5rem 3rem; 
+	padding: 5rem 3rem;
 	width: 9rem;
 }
 
 /*各見出し設定*/
-.container{
+.container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	margin-top: 80px;
-	
-	border-top:3px dashed  #F5F5F5;
+
+	border-top: 3px dashed #F5F5F5;
 }
-.mini-header{
+
+.mini-header {
 	font-size: 3rem;
-	margin: 1rem 0 2rem 0;
+	margin: 2rem 0 1rem 0;
 }
 
 /*PROFILEのMain設定*/
-main{
+main {
 	width: 800px;
 	display: flex;
 	align-items: center;
 }
-.list{
+
+.list {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 1rem 0 2rem 0;
 }
-.minimini-header{
+
+.minimini-header {
 	font-size: 20px;
 	font-weight: bolder;
 }
-.list-item{
+
+.list-item {
 	padding: 5px;
 	text-align: center;
 }
 
-/*年表の設定*/
-.timeline,{
-	margin: 1rem;
-}
 /*Contactも使用*/
-.row{
+.row {
 	display: flex;
 	padding: 0 2rem 0 7rem;
 }
-.event{
+
+.event {
 	border-left: 3px solid #F5F5F5;
 	padding-left: 1rem;
 }
-.date{
+
+.date {
 	width: 120px;
 	text-align: center;
 	padding-right: 1rem;
 }
+
 .date,
-.event{
+.event {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 }
 
 /*Skillsの設定*/
-.skills-head{
+.skills-head {
 	text-align: right;
 	padding-right: 1rem;
 	width: 120px;
 }
-.skills-content{
+
+.skills-content {
 	padding-left: 1rem;
 	border-left: 3px solid #F5F5F5;
 }
+
 .skills-head,
-.skills-content{
+.skills-content {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 }
+
 /*Worksの設定*/
-.works-head{
+.works-head {
 	text-align: right;
 	padding-right: 1rem;
 	width: 120px;
 }
-.works-content{
+
+.works-content {
 	padding-left: 1rem;
 	border-left: 3px solid #F5F5F5;
 }
+
+.works-head,
+.works-content {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
 /*Contactの設定*/
-.contact{
+.contact {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-bottom: 100px;
+	padding-bottom: 40px;
 }
+
 .left,
-.right{
+.right {
 	text-align: center;
 }
-.left{
+
+.left {
 	padding-right: 1rem;
 }
-.right{
+
+.right {
 	padding-left: 1rem;
 }
-.c-row{
+
+.c-row {
 	padding: 1rem 2rem;
 	border-bottom: 3px solid #F5F5F5;
 	width: 500px;
 	justify-content: center;
+}
+
+html {
+	min-width: 760px;
+}
+
+header {
+	background-color: #1C1C1C;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
+footer {
+	border-top: 3px solid #F5F5F5;
+	height: 50px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
