@@ -45,6 +45,11 @@ ul {
 	justify-content: space-between;
 	align-items: center;
 }
+.portfolio a {
+	color: blue;
+}
+
+
 
 .portfolio {
 	padding: 1rem;
